@@ -1,6 +1,6 @@
 :root {
   --clr-primary: black;
-  --clr-secondary: #373737; 
+  --clr-secondary: #373737;
   --clr-tertiary: white;
 
   --ff-primary: 'Be Vietnam Pro', sans-serif;
@@ -92,7 +92,7 @@ svg {
   html:focus-within {
     scroll-behavior: auto;
   }
-  
+
   *,
   *::before,
   *::after {
