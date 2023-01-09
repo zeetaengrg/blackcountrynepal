@@ -105,6 +105,21 @@ svg {
   }
 }
 
+// ********* Announcement Section *********
+
+.announcement {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.2rem 1rem;
+  background-color: var(--clr-secondary);
+  font-size: var(--fs-300);
+
+  .follow-us {
+    display: flex;
+    gap: 0.5rem;
+  }
+}
+
 // ********* Navigation Section **********
 
 .primary-header {
