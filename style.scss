@@ -130,6 +130,11 @@ svg {
   .follow-us {
     display: flex;
     gap: 0.5rem;
+
+    .social-icons {
+      display: flex;
+      gap: 0.25rem;
+    }
   }
 }
 
