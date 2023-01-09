@@ -77,6 +77,8 @@ body {
 /* A elements that don't have a class get default styles */
 a:not([class]) {
   text-decoration-skip-ink: auto;
+  text-decoration: none;
+  color: var(--clr-primary);
 }
 
 /* Make images easier to work with */
@@ -100,5 +102,33 @@ svg {
     animation-iteration-count: 1 !important;
     transition-duration: 0.01ms !important;
     scroll-behavior: auto !important;
+  }
+}
+
+// ********* Navigation Section **********
+
+.primary-header {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    padding: 0rem 3rem;
+
+    img {
+      width: 125px;
+      height: 110px;
+    }
+
+    .primary-navigation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      .nav-list {
+        display: flex;
+        gap: 4rem;
+
+        li {}
+      }
+    }
   }
 }
